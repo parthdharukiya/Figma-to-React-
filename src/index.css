@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    overflow-x: hidden;
+}
+.hover-text {
+  color: rgb(211, 94, 94);
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.hover-text:hover {
+  color: red;
+}
